@@ -74,11 +74,40 @@
 		font-weight: bold;
 		font-size: 12pt;
 		color: white;
+	} ul {
+		width: 800px;
+		height: auto;
+		//background: #FFDAB9;
+		margin: 24px auto;
+		display: grid;
+		grid-template: auto / repeat(3,auto);
+		font: 14pt/2.5em 'Kedebideri';
+		text-weight: Bold;
+		text-align: center;
+	} li {
+		list-style: none;
+		background: #F08080;
+	} a {
+		text-decoration: none;
+		color: white;
+	} a li:hover {
+		background: #FBC4AB;
 	}
 </style>
 </head>
 
 <body>
+	<ul>
+		<a href="index.html">
+		<li>Flex Portfolio</li>
+		</a>
+		<a href="grid.html">
+		<li>Grid Portfolio</li>
+		</a>
+		<a href="form.html">
+		<li>Contact Me</li>
+		</a>
+	</ul>
 	<h1>Contact Me</h1>
 	<form action="https://formsubmit.co/fallsc1@unlv.nevada.edu" method="POST">
 		<input type="text" /><br/>
